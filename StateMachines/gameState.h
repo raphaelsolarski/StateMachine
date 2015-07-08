@@ -1,5 +1,7 @@
 #pragma once
 
+//typ okreœlaj¹cy wszystkie stany gry
+//jeœli dodajesz nowy stan to musisz go tutaj uwzglêdniæ
 enum GameStates
 {
 	GAME_STATE_NULL,
@@ -8,6 +10,7 @@ enum GameStates
 	GAME_STATE_EXIT
 };
 
+//g³ówna klasa GameState po której bêdzie dziedziczyæ ka¿da klasa state'a
 class GameState
 {
 public:
